@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA0EA95D29CF8FAE00F9CBB8 /* compl-gpt Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FA0EA95C29CF8FAE00F9CBB8 /* compl-gpt Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FA0EA96229CF8FAE00F9CBB8 /* compl_gptApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0EA96129CF8FAE00F9CBB8 /* compl_gptApp.swift */; };
+		FA0EA96429CF8FAE00F9CBB8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0EA96329CF8FAE00F9CBB8 /* ContentView.swift */; };
+		FA0EA96629CF8FAE00F9CBB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA0EA96529CF8FAE00F9CBB8 /* Assets.xcassets */; };
+		FA0EA96929CF8FAE00F9CBB8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA0EA96829CF8FAE00F9CBB8 /* Preview Assets.xcassets */; };
+		FA0EA97F29CFA20100F9CBB8 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA0EA97E29CFA20100F9CBB8 /* WidgetKit.framework */; };
+		FA0EA98129CFA20100F9CBB8 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA0EA98029CFA20100F9CBB8 /* SwiftUI.framework */; };
+		FA0EA98429CFA20100F9CBB8 /* W1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0EA98329CFA20100F9CBB8 /* W1.swift */; };
+		FA0EA98629CFA20200F9CBB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA0EA98529CFA20200F9CBB8 /* Assets.xcassets */; };
+		FA0EA98A29CFA20200F9CBB8 /* W1Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = FA0EA97C29CFA20100F9CBB8 /* W1Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FA95BA7829CFC79A00C74D07 /* LocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA95BA7729CFC79A00C74D07 /* LocationProvider.swift */; };
+		FA95BA7929CFC79A00C74D07 /* LocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA95BA7729CFC79A00C74D07 /* LocationProvider.swift */; };
+		FA95BA7B29CFCB4B00C74D07 /* WeatherProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA95BA7A29CFCB4B00C74D07 /* WeatherProvider.swift */; };
+		FA95BA7C29CFCB4B00C74D07 /* WeatherProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA95BA7A29CFCB4B00C74D07 /* WeatherProvider.swift */; };
+		FA95BA7E29CFD69700C74D07 /* ActivityProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA95BA7D29CFD69700C74D07 /* ActivityProvider.swift */; };
+		FA95BA7F29CFD69700C74D07 /* ActivityProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA95BA7D29CFD69700C74D07 /* ActivityProvider.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA0EA95E29CF8FAE00F9CBB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA0EA95029CF8FAD00F9CBB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA0EA95B29CF8FAE00F9CBB8;
+			remoteInfo = "compl-gpt Watch App";
+		};
+		FA0EA98829CFA20200F9CBB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA0EA95029CF8FAD00F9CBB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA0EA97B29CFA20100F9CBB8;
+			remoteInfo = W1Extension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA0EA96F29CF8FAE00F9CBB8 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				FA0EA95D29CF8FAE00F9CBB8 /* compl-gpt Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0EA98E29CFA20200F9CBB8 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FA0EA98A29CFA20200F9CBB8 /* W1Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FA0EA95629CF8FAE00F9CBB8 /* compl-gpt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "compl-gpt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0EA95C29CF8FAE00F9CBB8 /* compl-gpt Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "compl-gpt Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0EA96129CF8FAE00F9CBB8 /* compl_gptApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = compl_gptApp.swift; sourceTree = "<group>"; };
+		FA0EA96329CF8FAE00F9CBB8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA0EA96529CF8FAE00F9CBB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA0EA96829CF8FAE00F9CBB8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA0EA97329CF904500F9CBB8 /* compl-gpt Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "compl-gpt Watch App.entitlements"; sourceTree = "<group>"; };
+		FA0EA97C29CFA20100F9CBB8 /* W1Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = W1Extension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0EA97E29CFA20100F9CBB8 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		FA0EA98029CFA20100F9CBB8 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		FA0EA98329CFA20100F9CBB8 /* W1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = W1.swift; sourceTree = "<group>"; };
+		FA0EA98529CFA20200F9CBB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA0EA98729CFA20200F9CBB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA95BA7729CFC79A00C74D07 /* LocationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationProvider.swift; sourceTree = "<group>"; };
+		FA95BA7A29CFCB4B00C74D07 /* WeatherProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherProvider.swift; sourceTree = "<group>"; };
+		FA95BA7D29CFD69700C74D07 /* ActivityProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityProvider.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA0EA95929CF8FAE00F9CBB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0EA97929CFA20100F9CBB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0EA98129CFA20100F9CBB8 /* SwiftUI.framework in Frameworks */,
+				FA0EA97F29CFA20100F9CBB8 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA0EA94F29CF8FAD00F9CBB8 = {
+			isa = PBXGroup;
+			children = (
+				FA0EA96029CF8FAE00F9CBB8 /* compl-gpt Watch App */,
+				FA0EA98229CFA20100F9CBB8 /* W1 */,
+				FA0EA97D29CFA20100F9CBB8 /* Frameworks */,
+				FA0EA95729CF8FAE00F9CBB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA0EA95729CF8FAE00F9CBB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA0EA95629CF8FAE00F9CBB8 /* compl-gpt.app */,
+				FA0EA95C29CF8FAE00F9CBB8 /* compl-gpt Watch App.app */,
+				FA0EA97C29CFA20100F9CBB8 /* W1Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA0EA96029CF8FAE00F9CBB8 /* compl-gpt Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				FA0EA97329CF904500F9CBB8 /* compl-gpt Watch App.entitlements */,
+				FA0EA96129CF8FAE00F9CBB8 /* compl_gptApp.swift */,
+				FA0EA96329CF8FAE00F9CBB8 /* ContentView.swift */,
+				FA0EA96529CF8FAE00F9CBB8 /* Assets.xcassets */,
+				FA0EA96729CF8FAE00F9CBB8 /* Preview Content */,
+				FA95BA7729CFC79A00C74D07 /* LocationProvider.swift */,
+				FA95BA7A29CFCB4B00C74D07 /* WeatherProvider.swift */,
+				FA95BA7D29CFD69700C74D07 /* ActivityProvider.swift */,
+			);
+			path = "compl-gpt Watch App";
+			sourceTree = "<group>";
+		};
+		FA0EA96729CF8FAE00F9CBB8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FA0EA96829CF8FAE00F9CBB8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA0EA97D29CFA20100F9CBB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA0EA97E29CFA20100F9CBB8 /* WidgetKit.framework */,
+				FA0EA98029CFA20100F9CBB8 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA0EA98229CFA20100F9CBB8 /* W1 */ = {
+			isa = PBXGroup;
+			children = (
+				FA0EA98329CFA20100F9CBB8 /* W1.swift */,
+				FA0EA98529CFA20200F9CBB8 /* Assets.xcassets */,
+				FA0EA98729CFA20200F9CBB8 /* Info.plist */,
+			);
+			path = W1;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA0EA95529CF8FAE00F9CBB8 /* compl-gpt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA0EA97029CF8FAE00F9CBB8 /* Build configuration list for PBXNativeTarget "compl-gpt" */;
+			buildPhases = (
+				FA0EA95429CF8FAE00F9CBB8 /* Resources */,
+				FA0EA96F29CF8FAE00F9CBB8 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA0EA95F29CF8FAE00F9CBB8 /* PBXTargetDependency */,
+			);
+			name = "compl-gpt";
+			productName = "compl-gpt";
+			productReference = FA0EA95629CF8FAE00F9CBB8 /* compl-gpt.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		FA0EA95B29CF8FAE00F9CBB8 /* compl-gpt Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA0EA96C29CF8FAE00F9CBB8 /* Build configuration list for PBXNativeTarget "compl-gpt Watch App" */;
+			buildPhases = (
+				FA0EA95829CF8FAE00F9CBB8 /* Sources */,
+				FA0EA95929CF8FAE00F9CBB8 /* Frameworks */,
+				FA0EA95A29CF8FAE00F9CBB8 /* Resources */,
+				FA0EA98E29CFA20200F9CBB8 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA0EA98929CFA20200F9CBB8 /* PBXTargetDependency */,
+			);
+			name = "compl-gpt Watch App";
+			productName = "compl-gpt Watch App";
+			productReference = FA0EA95C29CF8FAE00F9CBB8 /* compl-gpt Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA0EA97B29CFA20100F9CBB8 /* W1Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA0EA98B29CFA20200F9CBB8 /* Build configuration list for PBXNativeTarget "W1Extension" */;
+			buildPhases = (
+				FA0EA97829CFA20100F9CBB8 /* Sources */,
+				FA0EA97929CFA20100F9CBB8 /* Frameworks */,
+				FA0EA97A29CFA20100F9CBB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = W1Extension;
+			productName = W1Extension;
+			productReference = FA0EA97C29CFA20100F9CBB8 /* W1Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA0EA95029CF8FAD00F9CBB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					FA0EA95529CF8FAE00F9CBB8 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					FA0EA95B29CF8FAE00F9CBB8 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					FA0EA97B29CFA20100F9CBB8 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = FA0EA95329CF8FAD00F9CBB8 /* Build configuration list for PBXProject "compl-gpt" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA0EA94F29CF8FAD00F9CBB8;
+			productRefGroup = FA0EA95729CF8FAE00F9CBB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA0EA95529CF8FAE00F9CBB8 /* compl-gpt */,
+				FA0EA95B29CF8FAE00F9CBB8 /* compl-gpt Watch App */,
+				FA0EA97B29CFA20100F9CBB8 /* W1Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA0EA95429CF8FAE00F9CBB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0EA95A29CF8FAE00F9CBB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0EA96929CF8FAE00F9CBB8 /* Preview Assets.xcassets in Resources */,
+				FA0EA96629CF8FAE00F9CBB8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0EA97A29CFA20100F9CBB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0EA98629CFA20200F9CBB8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA0EA95829CF8FAE00F9CBB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA95BA7E29CFD69700C74D07 /* ActivityProvider.swift in Sources */,
+				FA95BA7B29CFCB4B00C74D07 /* WeatherProvider.swift in Sources */,
+				FA0EA96429CF8FAE00F9CBB8 /* ContentView.swift in Sources */,
+				FA95BA7829CFC79A00C74D07 /* LocationProvider.swift in Sources */,
+				FA0EA96229CF8FAE00F9CBB8 /* compl_gptApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0EA97829CFA20100F9CBB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0EA98429CFA20100F9CBB8 /* W1.swift in Sources */,
+				FA95BA7C29CFCB4B00C74D07 /* WeatherProvider.swift in Sources */,
+				FA95BA7929CFC79A00C74D07 /* LocationProvider.swift in Sources */,
+				FA95BA7F29CFD69700C74D07 /* ActivityProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA0EA95F29CF8FAE00F9CBB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA0EA95B29CF8FAE00F9CBB8 /* compl-gpt Watch App */;
+			targetProxy = FA0EA95E29CF8FAE00F9CBB8 /* PBXContainerItemProxy */;
+		};
+		FA0EA98929CFA20200F9CBB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA0EA97B29CFA20100F9CBB8 /* W1Extension */;
+			targetProxy = FA0EA98829CFA20200F9CBB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA0EA96A29CF8FAE00F9CBB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA0EA96B29CF8FAE00F9CBB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FA0EA96D29CF8FAE00F9CBB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "compl-gpt Watch App/compl-gpt Watch App.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"compl-gpt Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = SZ7R29UQ26;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "compl-gpt";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app requires access to your step count to display your daily step progress.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app requires access to your step count to display your daily step progress.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires access to your location to provide accurate weather information for your current area.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "seldoff.compl-gpt.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		FA0EA96E29CF8FAE00F9CBB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "compl-gpt Watch App/compl-gpt Watch App.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"compl-gpt Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = SZ7R29UQ26;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "compl-gpt";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app requires access to your step count to display your daily step progress.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app requires access to your step count to display your daily step progress.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires access to your location to provide accurate weather information for your current area.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "seldoff.compl-gpt.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		FA0EA97129CF8FAE00F9CBB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SZ7R29UQ26;
+				INFOPLIST_KEY_CFBundleDisplayName = "compl-gpt";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "seldoff.compl-gpt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FA0EA97229CF8FAE00F9CBB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SZ7R29UQ26;
+				INFOPLIST_KEY_CFBundleDisplayName = "compl-gpt";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "seldoff.compl-gpt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA0EA98C29CFA20200F9CBB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SZ7R29UQ26;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = W1/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = W1;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app requires access to your step count to display your daily step progress.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app requires access to your step count to display your daily step progress.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires access to your location to provide accurate weather information for your current area.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "seldoff.compl-gpt.watchkitapp.W1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		FA0EA98D29CFA20200F9CBB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SZ7R29UQ26;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = W1/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = W1;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app requires access to your step count to display your daily step progress.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app requires access to your step count to display your daily step progress.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires access to your location to provide accurate weather information for your current area.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "seldoff.compl-gpt.watchkitapp.W1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA0EA95329CF8FAD00F9CBB8 /* Build configuration list for PBXProject "compl-gpt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0EA96A29CF8FAE00F9CBB8 /* Debug */,
+				FA0EA96B29CF8FAE00F9CBB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA0EA96C29CF8FAE00F9CBB8 /* Build configuration list for PBXNativeTarget "compl-gpt Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0EA96D29CF8FAE00F9CBB8 /* Debug */,
+				FA0EA96E29CF8FAE00F9CBB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA0EA97029CF8FAE00F9CBB8 /* Build configuration list for PBXNativeTarget "compl-gpt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0EA97129CF8FAE00F9CBB8 /* Debug */,
+				FA0EA97229CF8FAE00F9CBB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA0EA98B29CFA20200F9CBB8 /* Build configuration list for PBXNativeTarget "W1Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0EA98C29CFA20200F9CBB8 /* Debug */,
+				FA0EA98D29CFA20200F9CBB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA0EA95029CF8FAD00F9CBB8 /* Project object */;
+}
